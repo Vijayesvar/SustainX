@@ -1,0 +1,94 @@
+
+Command: shopt -s histappend
+Output:
+
+Exit Code: 0
+----
+Command: pwd
+Output:
+/home/vijay/Documents/SustainX
+Exit Code: 0
+----
+Command: git push origin
+Output:
+Everything up-to-date
+Exit Code: 0
+----
+Command: git push origin
+Output:
+Everything up-to-date
+Exit Code: 0
+----
+Command: git commit -m “feat: message”
+Output:
+error: pathspec 'message”' did not match any file(s) known to git
+Exit Code: 1
+----
+Command: git commit
+Output:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    Backend/Routes/nftRoutes.js
+	deleted:    Backend/Utils/constants.js
+	deleted:    Backend/Utils/helpers.js
+	deleted:    Backend/app.js
+	deleted:    Backend/artifacts/MarketplaceContract.json
+	deleted:    Backend/artifacts/MarketplaceContract_metadata.json
+	deleted:    Backend/artifacts/NFTContract.json
+	deleted:    Backend/artifacts/NFTContract_metadata.json
+	deleted:    Backend/artifacts/RecyclingRewards.json
+	deleted:    Backend/artifacts/RecyclingRewards_metadata.json
+	deleted:    Backend/artifacts/SustainabilityMetrics.json
+	deleted:    Backend/artifacts/SustainabilityMetrics_metadata.json
+	deleted:    Backend/artifacts/TokenContract.json
+	deleted:    Backend/artifacts/TokenContract_metadata.json
+	deleted:    Backend/artifacts/build-info/526b9dee0c0719b37d2bad86040b77ae.json
+	deleted:    Backend/artifacts/build-info/90beaa729a07bc56b870bff85c675088.json
+	deleted:    Backend/artifacts/build-info/c16db99d6ee8aa3d9a83739df32b36e2.json
+	deleted:    Backend/artifacts/build-info/ca0d8e441ae9ae8190d5df83659c1c8c.json
+	deleted:    Backend/artifacts/build-info/de8b001d32737fb358a8e905cf8958eb.json
+	deleted:    Backend/contracts/MarketplaceContract.sol
+	deleted:    Backend/contracts/NFTcontract.sol
+	deleted:    Backend/contracts/RecyclingRewards.sol
+	deleted:    Backend/contracts/SustainabilityMetrics.sol
+	deleted:    Backend/contracts/TokenContract.sol
+	deleted:    Backend/integrations/bitsCrunch.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	command_output.log
+	contracts/
+	hardhat.config.js
+	ignition/
+	package-lock.json
+	package.json
+	test/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Exit Code: 1
+----
+Command: git push origin
+Output:
+Everything up-to-date
+Exit Code: 0
+----
+Command: git push origin main
+Output:
+Everything up-to-date
+Exit Code: 0
+----
+Command: git add .
+Output:
+
+Exit Code: 0
+----
+Command: git push origin main
+Output:
+Everything up-to-date
+Exit Code: 0
+----
